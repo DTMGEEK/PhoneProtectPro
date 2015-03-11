@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bakcgroundcolor"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_lock_ll_layout_height"
+        android:background="@drawable/title_background"
+        android:gravity="center_vertical|center_horizontal" 
+      	android:orientation="horizontal"
+      >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_lock_tv_text"
+            android:textColor="@color/app_lock_tv_text_color"
+            android:textSize="@dimen/app_lock_tv_size"
+            />
+        
+    </LinearLayout>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+        <ListView 
+            android:id="@+id/app_lock_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dip"
+            android:cacheColorHint="@android:color/transparent"
+            android:background="#e2e2e2"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:dividerHeight="16dp"
+            android:padding="16dp"
+            android:scrollbarStyle="outsideOverlay"
+            />
+        
+        <LinearLayout 
+            android:id="@+id/ll_app_manager_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            >
+            
+            <ProgressBar 
+                android:layout_width="@dimen/app_lock_pb_size"
+                android:layout_height="@dimen/app_lock_pb_size"
+                />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_lock_tv_textpg"
+                android:textSize="@dimen/app_lock_tv_sized"
+                />
+            
+            
+        </LinearLayout>
+        
+    </FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/layout/app_lock.xml -->

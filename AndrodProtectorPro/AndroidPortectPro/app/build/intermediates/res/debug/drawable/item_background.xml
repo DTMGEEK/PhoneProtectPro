@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <stroke
+        android:width="@dimen/item_background_width"
+        android:color="@color/item_background_color"
+        />
+    
+    <corners 
+        android:radius="@dimen/item_background_cornradius"
+        />
+    
+    <gradient 
+        android:startColor="@color/item_background_gradientstartColor"
+        android:centerColor="@color/item_background_gradientcenterColor"
+        android:endColor="@color/item_background_gradientendColor"
+        />
+
+</shape>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/drawable/item_background.xml -->

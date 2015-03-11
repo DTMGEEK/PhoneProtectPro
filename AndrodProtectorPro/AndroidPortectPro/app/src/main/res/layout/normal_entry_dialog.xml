@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginRight="20dip"
+    android:layout_marginLeft="20dip"
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/customviewlayTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A94F9" >
+
+        <TextView
+            android:id="@+id/customviewtvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="登陆"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/customviewlayMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/customviewlayTitle"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/orthertv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_entry_dialog_tv_password"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/et_normal_entry_dialog_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/customviewlayLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customviewlayMessage"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/bt_normal_dialog_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/linkbtnbged"
+            android:linksClickable="true"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="@string/normal_entry_dialog_bn_confirm" />
+
+        <Button
+            android:id="@+id/bt_normal_dialog_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:linksClickable="true"
+            android:background="@drawable/linkbtnbged"
+            android:text="@string/normal_entry_dialog_bn_cancel"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

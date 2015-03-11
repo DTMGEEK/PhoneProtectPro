@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+
+ <ScrollView
+     android:layout_gravity="center"
+     android:layout_width="350dip"
+     android:layout_height="wrap_content"
+     >
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/white"
+         android:gravity="center"
+         android:layout_marginLeft="25dip"
+         android:orientation="vertical" >
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            android:layout_marginTop="15dip"
+            card_view:cardBackgroundColor="#0000FF"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/atools_tv_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:clickable="true"
+                    android:gravity="right|bottom"
+                    android:textColor="@android:color/black"
+                    android:text="@string/atool_query_content"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            android:layout_marginTop="15dip"
+            card_view:cardBackgroundColor="#FF0000"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="8dp"
+                >
+
+                  <LinearLayout
+                      android:layout_width="280dip"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_marginTop="90dip"
+                      android:orientation="vertical" >
+
+                      <TextView
+
+                          android:layout_width="280dip"
+                          android:layout_height="wrap_content"
+                          android:text="@string/atool_query_content"
+                          android:textSize="@dimen/atool_textsize"
+                          android:textColor="@android:color/black"
+
+                          />
+
+                      <TextView
+                          android:id="@+id/tv_atools_address"
+                          android:layout_width="280dip"
+                          android:layout_height="wrap_content"
+                          android:text="@string/atool_tv_text_noservice"
+                          android:textSize="@dimen/atool_textsize_noservice"
+                          android:textColor="@android:color/black"
+                          />
+
+                  </LinearLayout>
+
+                  <CheckBox
+                      android:id="@+id/atools_cb_address"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="90dip"
+                      android:layout_alignParentRight="true"
+                      />
+
+              </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            android:layout_marginTop="15dip"
+            card_view:cardBackgroundColor="#FF7F00"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="8dp"
+                >
+                    <TextView
+
+                        android:id="@+id/atools_tv_select_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="@string/atool_tv_text_select_bg_text"
+                        android:textSize="@dimen/atool_query_textsize"
+                        android:textColor="@android:color/black"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             card_view:cardCornerRadius="20dp"
+             card_view:cardPreventCornerOverlap="true"
+             card_view:cardUseCompatPadding="true"
+             android:layout_marginTop="15dip"
+             card_view:cardBackgroundColor="#FFFF00"
+             >
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:padding="8dp"
+             >
+
+            <TextView
+                android:id="@+id/atools_tv_change_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/atool_tv_change_location_text"
+                android:textSize="@dimen/atool_query_textsize"
+                android:textColor="@android:color/black"
+            />
+
+         </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+
+         <android.support.v7.widget.CardView
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             card_view:cardCornerRadius="20dp"
+             card_view:cardPreventCornerOverlap="true"
+             card_view:cardUseCompatPadding="true"
+             android:layout_marginTop="15dip"
+             card_view:cardBackgroundColor="#00FF00"
+             >
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="160dp"
+                     android:padding="8dp"
+                     >
+
+
+                        <TextView
+                            android:id="@+id/atools_tv_change_sms_backup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:textColor="@android:color/black"
+                            android:text="@string/atool_tv_change_smsbackup_text"
+                            android:textSize="@dimen/atool_query_textsize"
+                            />
+                </RelativeLayout>
+
+         </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             card_view:cardCornerRadius="20dp"
+             card_view:cardPreventCornerOverlap="true"
+             card_view:cardUseCompatPadding="true"
+             android:layout_marginTop="15dip"
+             card_view:cardBackgroundColor="#00FFFF"
+             >
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="160dp"
+                     android:padding="8dp"
+                     >
+
+
+                        <TextView
+                            android:id="@+id/atools_tv_change_sms_restore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:textColor="@android:color/black"
+                            android:text="@string/atool_tv_change_smsrestore_text"
+                            android:textSize="@dimen/atool_query_textsize"
+                            />
+            </RelativeLayout>
+
+         </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             card_view:cardCornerRadius="20dp"
+             card_view:cardPreventCornerOverlap="true"
+             card_view:cardUseCompatPadding="true"
+             android:layout_marginTop="15dip"
+             card_view:cardBackgroundColor="#E1FFFF"
+             >
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="160dp"
+                     android:padding="8dp"
+                     >
+
+                       <TextView
+                            android:id="@+id/atools_tv_change_contacts_backup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:textColor="@android:color/black"
+                            android:text="@string/atool_tv_change_contactsbackup_text"
+                            android:textSize="@dimen/atool_query_textsize"
+                        />
+
+                 </RelativeLayout>
+
+         </android.support.v7.widget.CardView>
+
+
+         <android.support.v7.widget.CardView
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             card_view:cardCornerRadius="20dp"
+             card_view:cardPreventCornerOverlap="true"
+             card_view:cardUseCompatPadding="true"
+             android:layout_marginTop="15dip"
+             card_view:cardBackgroundColor="#F0F8FF"
+             >
+                 <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="160dp"
+                     android:padding="8dp"
+                     >
+                        <TextView
+                            android:id="@+id/atools_tv_change_contacts_restore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:textColor="@android:color/black"
+                            android:text="@string/atool_tv_change_contactsrestore_text"
+                            android:textSize="@dimen/atool_query_textsize"
+                        />
+                  </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                 android:layout_width="300dip"
+                 android:layout_height="wrap_content"
+                 card_view:cardCornerRadius="20dp"
+                 card_view:cardPreventCornerOverlap="true"
+                 card_view:cardUseCompatPadding="true"
+                 android:layout_marginTop="15dip"
+                 card_view:cardBackgroundColor="#40E0D0"
+                 >
+                     <RelativeLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="160dp"
+                         android:padding="8dp"
+                         >
+
+                          <TextView
+                            android:id="@+id/atools_tv_applock"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:textColor="@android:color/black"
+                            android:text="@string/atool_tv_applock_text"
+                            android:textSize="@dimen/atool_query_textsize"
+                        />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                 <android.support.v7.widget.CardView
+                     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                     android:layout_width="300dip"
+                     android:layout_height="wrap_content"
+                     card_view:cardCornerRadius="20dp"
+                     card_view:cardPreventCornerOverlap="true"
+                     card_view:cardUseCompatPadding="true"
+                     android:layout_marginTop="15dip"
+                     card_view:cardBackgroundColor="#32CD32"
+                     >
+                         <RelativeLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="160dp"
+                             android:padding="8dp"
+                             >
+
+                           <TextView
+                               android:id="@+id/atools_tv_common_num"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="5dip"
+                               android:text="@string/atool_tv_common_num_text"
+                               android:textSize="@dimen/atool_query_textsize"
+                               android:textColor="@android:color/black"
+                          />
+
+                    </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+   </ScrollView>
+
+
+</LinearLayout>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/layout/atools.xml -->

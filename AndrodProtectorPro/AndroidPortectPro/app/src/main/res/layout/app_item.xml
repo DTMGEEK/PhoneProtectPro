@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dip"
+    android:background="@drawable/card_background_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/ll_popup"
+    >
+
+
+    <ImageView
+        android:id="@+id/app_name_iv"
+        android:layout_width="@dimen/app_name_iv_size"
+        android:layout_height="@dimen/app_name_iv_size"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        />
+
+
+    <TextView
+        android:id="@+id/app_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:text="@string/app_item_tv_text"
+        android:textSize="@dimen/app_item_tv_appname_textsize"
+        android:textColor="@android:color/black"
+        />
+
+
+</LinearLayout>

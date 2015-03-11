@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_lost_protected_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/lost_protected_tv_number_content"
+        android:textSize="@dimen/lost_protected_textsize"
+        />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="5dip"
+        android:background="#ffffffff"
+        />
+
+    <CheckBox 
+        android:id="@+id/cb_isprotecting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lost_protected_tv_cb_content"
+        android:textSize="@dimen/lost_protected_textsize"
+        />
+    
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="5dip"
+        android:background="#ffffffff"
+        />
+      
+      
+      <TextView 
+          android:id="@+id/tv_reentry_setup_guide"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+          android:text="@string/lost_protected_tv_reentry_content"
+		  android:textSize="@dimen/lost_protected_textsize"
+          />
+
+      <TextView 
+          android:layout_width="match_parent"
+	      android:textSize="@dimen/lost_protected_textsize"
+	      android:textColor="@color/lost_protected_tv_textcolor"
+          android:layout_height="wrap_content"
+          android:text="@string/lost_protected_tv_scurity_content"
+          />
+    
+</LinearLayout>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/layout/lost_protected.xml -->

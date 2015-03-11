@@ -1,0 +1,7 @@
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\classes\debug
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-3fe82914c1714214b5ab0fa3af20faf859beb27f.jar
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-ff0e1ab648f96f630dbfdfa2cfcd095f1ec11d92.jar
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-da6e76cec30bfa94a4ea458a7d890fcd7dee5f68.jar
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-a8db537883c56e8827d700e0a5383b7264832c94.jar
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-35b662e95482469b638d9dde73181c7126c7f9eb.jar
+H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-93860f7f156f5a54366ba0266a7ef1153b0c9f4f.jar

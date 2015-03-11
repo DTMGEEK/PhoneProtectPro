@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\AndroidStudioWP\AndroidPortectPro\listviewanimlibrary\res"/><source path="H:\AndroidStudioWP\AndroidPortectPro\listviewanimlibrary\build\generated\res\rs\debug"/><source path="H:\AndroidStudioWP\AndroidPortectPro\listviewanimlibrary\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="H:\AndroidStudioWP\AndroidPortectPro\listviewanimlibrary\src\debug\res"/></dataSet><mergedItems/></merger>

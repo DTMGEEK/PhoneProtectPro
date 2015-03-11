@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dip"
+    android:orientation="vertical" >
+
+
+
+    <android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dip"
+    android:layout_height="150dip"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginTop="15dip"
+    card_view:cardBackgroundColor="#00FFFF"
+    android:layout_gravity="center"
+    >
+
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        >
+        
+        <LinearLayout 
+            android:layout_width="@dimen/setting_center_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+            
+            <TextView 
+                android:layout_width="@dimen/setting_center_layout_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_center_tv_text"
+                android:textSize="@dimen/setting_center_layout_textsize"
+                />
+            
+             <TextView 
+                android:id="@+id/setting_applock_tv"
+                android:layout_width="@dimen/setting_center_layout_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_center_tv_text_unservice"
+                android:textSize="@dimen/setting_center_layout_unserviec_textsize"
+                />
+            
+            
+        </LinearLayout>
+        
+        <CheckBox
+            android:id="@+id/setting_applock_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" 
+            />
+        
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+    
+</LinearLayout>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/layout/setting_center.xml -->

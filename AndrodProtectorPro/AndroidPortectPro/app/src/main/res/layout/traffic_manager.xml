@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <com.example.androiddefprot.custom.controls.SearchDevicesView
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="100dip">
+    </com.example.androiddefprot.custom.controls.SearchDevicesView>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/customviewlayTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A94F9" >
+
+            <TextView
+                android:id="@+id/customviewtvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:text="关于我们"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/customviewlayMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/customviewlayTitle"
+            android:layout_marginTop="20dip"
+            android:padding="20dp" >
+
+            <TextView
+                android:id="@+id/orthertv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/traffic_manager_tv_total"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/traffic_manager_tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_bright"
+                />
+
+            <TextView
+                android:id="@+id/orthertv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/traffic_manager_tv_wifi_total"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/traffic_manager_tv_wifi_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_bright"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <SlidingDrawer 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical"
+        >
+        <ImageView 
+            android:id="@id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification"
+            />
+        
+        <ListView 
+            android:id="@id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e2e2e2"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:dividerHeight="16dp"
+            android:padding="16dp"
+            android:scrollbarStyle="outsideOverlay"
+            />
+    </SlidingDrawer>
+    
+
+</LinearLayout>

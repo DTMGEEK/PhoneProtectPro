@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color name="title_background">#ff505050</color>
+  	<color name="title_gradient_startColor">#ff505050</color>
+  	<color name="title_gradient_centerColor">#ff383030</color>
+  	<color name="title_gradient_endColor">#ff282828</color>
+  	
+  	<color name="item_background_color">#ff505050</color>
+  	<color name="item_background_gradientstartColor">#ff505050</color>
+  	<color name="item_background_gradientcenterColor">#ff383030</color>
+  	<color name="item_background_gradientendColor">#ff282828</color>
+  	
+  	<color name="text_color">#fffafa</color>
+  	<color name="bakcgroundcolor">#272727</color>
+  	
+  	
+  	<color name="normal_entry_dialog_llbackgroundcolor">#ffc8c8c8</color>
+  	<color name="normal_entry_dialog_passwordcolor">#ff000000</color>
+  	
+  	
+  	<color name="button_background_startColor">#ff2c2d2d</color>
+  	<color name="button_background_centerColor">#ff262626</color>
+  	<color name="button_background_endColor">#ff515151</color>
+  	
+  	<color name="lost_protected_tv_textcolor">#FF00ff66</color>
+  	
+  	<color name="atool_textcolor_noservice">#ffff0000</color>
+  	
+  	
+  	<color name="call_sms_safe_color">#FFF8F8F8</color>
+  
+  	<color name="app_manager_linearlayout_bgcolor">#dd555F5F</color>
+  	
+  	<color name="popup_item_bg_color">#ff00ff66</color>
+  	
+  	<color name="app_lock_tv_text_color">#FFF8F8F8</color>
+</resources>

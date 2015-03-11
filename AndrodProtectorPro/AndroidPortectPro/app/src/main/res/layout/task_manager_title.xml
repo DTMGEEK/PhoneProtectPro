@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dip"
+>
+
+    <TextView 
+        android:id="@+id/task_manager_title_tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/task_manager_title_tv_progress_number"
+        />
+    
+    <TextView 
+        android:id="@+id/task_manager_title_tv_availablememory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/task_manager_title_tv_available_memory"
+        />
+    
+
+</RelativeLayout>

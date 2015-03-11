@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_detail_tbrow_height"
+        >
+        <TextView 
+            android:layout_width="@dimen/app_detail_tbrow_width"
+            android:layout_height="@dimen/app_detail_tv_height"
+            android:layout_weight="1"
+            android:text="@string/app_detial_tv_appname"
+            />
+        
+       <TextView 
+            android:id="@+id/app_detail_tv_appname"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/app_detail_tv_height"
+            android:layout_weight="1"
+            android:text="@string/app_detial_tv_appname"
+            />
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_detail_tbrow_height"
+        >
+        <TextView 
+            android:layout_width="@dimen/app_detail_tbrow_width"
+            android:layout_height="@dimen/app_detail_tv_height"
+            android:layout_weight="1"
+            android:text="@string/app_detial_tv_packagename"
+            />
+        
+       <TextView 
+            android:id="@+id/app_detial_tv_packagename"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/app_detail_tv_height"
+            android:layout_weight="1"
+            android:text="@string/app_detial_tv_packagename"
+            />
+    </TableRow>
+    
+
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_detail_tbrow_height"
+        >
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="@dimen/app_detail_tbrow_height"
+           />
+    </TableRow>
+
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_detail_tbrow_detail"
+        >
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/app_detail_tbrow_detail"
+		    android:orientation="vertical"
+		     >
+		     <ScrollView
+		         android:id="@+id/app_detail_sv"
+		         android:layout_width="wrap_content"
+		         android:layout_height="match_parent"
+		          />
+		       
+		</LinearLayout>        
+        
+    </TableRow>
+    
+    
+</TableLayout>

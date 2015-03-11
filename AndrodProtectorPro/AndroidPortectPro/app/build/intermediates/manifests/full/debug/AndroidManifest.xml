@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androiddefprot"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.example.androiddefprot" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.example.androiddefprot.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon5"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androiddefprot.ui.SplashActivity"
+            android:icon="@drawable/icon5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androiddefprot.ui.MainScreenActivity"
+            android:label="@string/mainscreen"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.androiddefprot.ui.LostProtectedActivity"
+            android:label="@string/LostProtectedscreen" />
+        <activity
+            android:name="com.example.androiddefprot.ui.SetupGuideOneActivity"
+            android:label="@string/setupguide_label_first" />
+        <activity
+            android:name="com.example.androiddefprot.ui.SetupGuideSecondActivity"
+            android:label="@string/setupguide_label_second" />
+        <activity
+            android:name="com.example.androiddefprot.ui.SetupGuideThirdActivity"
+            android:label="@string/setupguide_label_third" />
+        <activity
+            android:name="com.example.androiddefprot.ui.SetupGuideFourthActivity"
+            android:label="@string/setupguide_label_fourth" />
+        <activity android:name="com.example.androiddefprot.ui.ContactInfoActivity" />
+        <activity android:name="com.example.androiddefprot.ui.AToolsActivity" />
+        <activity android:name="com.example.androiddefprot.ui.QueryNumberActivity" />
+        <activity android:name="com.example.androiddefprot.ui.DragViewActivity" />
+        <activity android:name="com.example.androiddefprot.ui.CallSmsActivity" />
+        <activity android:name="com.example.androiddefprot.ui.AppManagerActivity" />
+        <activity android:name="com.example.androiddefprot.ui.AppLockActivity" />
+        <activity
+            android:name="com.example.androiddefprot.ui.LockScreenActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name="com.example.androiddefprot.ui.SettinCenterActivity" />
+        <activity
+            android:name="com.example.androiddefprot.ui.TaskManagerActivity"
+            android:theme="@style/titlebarstyle" />
+        <activity
+            android:name="com.example.androiddefprot.ui.AppDetailActivity"
+            android:theme="@style/activity_float_no_title" />
+        <activity android:name="com.example.androiddefprot.ui.TaskSettingActivity" />
+        <activity android:name="com.example.androiddefprot.ui.CommonNumberActivity" />
+        <activity android:name="com.example.androiddefprot.ui.TrafficManagerActivity" />
+        <activity android:name="com.example.androiddefprot.ui.CacheInfoActivity" />
+        <activity android:name="com.example.androiddefprot.ui.AntiVirutsActivity" />
+
+        <receiver android:name="com.example.androiddefprot.receiver.CallPhoneReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.BootCompleteReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.SmsReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.MyDeviceAdminReciver" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/my_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.LockScreenReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.ProcessWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+        </receiver>
+        <receiver android:name="com.example.androiddefprot.receiver.BlackPhoneNumberReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+       <receiver android:name="com.example.androiddefprot.receiver.AutoBootReceiver">
+           <intent-filter >
+               <action android:name="android.intent.action.BOOT_COMPLETED"/>
+               <category android:name="android.intent.category.HOME"/>
+           </intent-filter>
+       </receiver>
+        -->
+
+        <service android:name="com.example.androiddefprot.service.AddressServiec" />
+        <service android:name="com.example.androiddefprot.service.BackupSmsService" />
+        <service android:name="com.example.androiddefprot.service.WatchDogService" />
+        <service android:name="com.example.androiddefprot.service.UpdateWidgetService" />
+
+        <provider
+            android:name="com.example.androiddefprot.provider.AppLockProvider"
+            android:authorities="com.text.androiddefprot.provider" />
+
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.androiddefprot.MainActivity" >
+
+    <item
+        android:id="@+id/update_blacknumber"
+        android:orderInCategory="100"
+        android:title="@string/context_menu_update_blacknumber"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/delete_blacknumber"
+        android:orderInCategory="100"
+        android:title="@string/context_menu_delete_blacknumber"
+        app:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/H:/AndroidStudioWP/AndroidPortectPro/app/src/main/res/menu/context_menu.xml -->

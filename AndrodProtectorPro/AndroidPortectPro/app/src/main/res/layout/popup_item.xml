@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dip"
+    android:layout_height="70dip"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical"
+    android:id="@+id/ll_popup"
+    >
+    
+    
+    <LinearLayout 
+        android:id="@+id/ll_start"
+        android:layout_width="@dimen/popup_item_linearlayout_size"
+        android:layout_height="@dimen/popup_item_linearlayout_size"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+        
+        <ImageView 
+            android:layout_width="@dimen/popup_item_imageiv_size"
+            android:layout_height="@dimen/popup_item_imageiv_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/img2"
+            />
+        
+        <TextView 
+            android:layout_width="@dimen/popup_item_textview_width"
+            android:layout_height="@dimen/popup_item_textview_height"
+            android:text="@string/popup_item_tv2_text"
+            />
+        
+    </LinearLayout>
+    
+    
+      <View 
+        android:layout_width="1dip"
+        android:layout_height="@dimen/popup_item_view_height"
+        android:background="@color/popup_item_bg_color"
+        />
+      
+      
+    <LinearLayout 
+        android:id="@+id/ll_uninstall"
+        android:layout_width="@dimen/popup_item_linearlayout_size"
+        android:layout_height="@dimen/popup_item_linearlayout_size"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+        
+         <ImageView 
+            android:layout_width="@dimen/popup_item_imageiv_size"
+            android:layout_height="@dimen/popup_item_imageiv_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/img1"
+            />
+        
+        <TextView 
+            android:layout_width="@dimen/popup_item_textview_width"
+            android:layout_height="@dimen/popup_item_textview_height"
+            android:text="@string/popup_item_tv1_text"
+            />
+        
+    </LinearLayout>
+      
+
+     <View 
+        android:layout_width="1dip"
+        android:layout_height="@dimen/popup_item_view_height"
+        android:background="@color/popup_item_bg_color"
+        />
+
+     
+     <LinearLayout 
+        android:id="@+id/ll_share"
+        android:layout_width="@dimen/popup_item_linearlayout_size"
+        android:layout_height="@dimen/popup_item_linearlayout_size"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+        
+         <ImageView 
+            android:layout_width="@dimen/popup_item_imageiv_size"
+            android:layout_height="@dimen/popup_item_imageiv_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/img3"
+            />
+        
+        <TextView 
+            android:layout_width="@dimen/popup_item_textview_width"
+            android:layout_height="@dimen/popup_item_textview_height"
+            android:text="@string/popup_item_tv3_text"
+            />
+        
+    </LinearLayout>
+    
+</LinearLayout>

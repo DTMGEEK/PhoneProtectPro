@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+     <TextView 
+            android:id="@+id/cache_info_item_tv_name"
+            android:layout_width="@dimen/cache_info_tv_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/cache_info_tv_name_text"
+            />
+        
+         <TextView 
+            android:id="@+id/cache_info_item_tv_code_size"
+            android:layout_width="@dimen/cache_info_tv_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/cache_info_tv_code_size_text"
+            />
+        
+          <TextView 
+            android:id="@+id/cache_info_item_tv_cache_size"
+            android:layout_width="@dimen/cache_info_tv_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/cache_info_tv_cache_size_text"
+            />
+          
+           <TextView 
+            android:id="@+id/cache_info_item_tv_data_size"
+            android:layout_width="@dimen/cache_info_tv_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/cache_info_tv_cache_size_text"
+            />
+
+</LinearLayout>

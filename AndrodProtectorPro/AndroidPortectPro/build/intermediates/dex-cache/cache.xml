@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-ff0e1ab648f96f630dbfdfa2cfcd095f1ec11d92.jar" />
+    </item>
+    <item
+        jar="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\exploded-aar\AndroidPortectPro\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6d556e4db34308f05be30411df33e2f6498fd8c8">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-3fe82914c1714214b5ab0fa3af20faf859beb27f.jar" />
+    </item>
+    <item
+        jar="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-35b662e95482469b638d9dde73181c7126c7f9eb.jar" />
+    </item>
+    <item
+        jar="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\exploded-aar\AndroidPortectPro\listviewanimlibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bad10b6b55a107aa4477793e2128743b544dad5">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\classes-da6e76cec30bfa94a4ea458a7d890fcd7dee5f68.jar" />
+    </item>
+    <item
+        jar="G:\AndroidTools\androieSDK\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-93860f7f156f5a54366ba0266a7ef1153b0c9f4f.jar" />
+    </item>
+    <item
+        jar="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\exploded-aar\AndroidPortectPro\listviewanimlibrary\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="H:\AndroidStudioWP\AndroidPortectPro\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-a8db537883c56e8827d700e0a5383b7264832c94.jar" />
+    </item>
+
+</items>

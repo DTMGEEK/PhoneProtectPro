@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_background_dimen">0.5dip</dimen>
+	<dimen name="title_background_cornradius">2dip</dimen>
+	<dimen name="item_background_cornradius">2dip</dimen>
+	<dimen name="item_background_width">0.5dip</dimen>
+	
+	
+	<dimen name="lost_protected_textsize">20sp</dimen>
+	
+	<dimen name="atool_query_textsize">24sp</dimen>
+	
+	<dimen name="atool_relaty_linearyout_width">280dip</dimen>
+	<dimen name="atool_textsize">22sp</dimen>
+	<dimen name="atool_textsize_noservice">14sp</dimen>
+	<dimen name="addressservice_tv_textsize">24sp</dimen>
+
+	<dimen name="drag_view_im_width">160dip</dimen>
+	<dimen name="drag_view_im_height">60dip</dimen>
+
+	
+	<dimen name="call_sms_safe_layout_height">40dip</dimen>
+	<dimen name="call_sms_safe_tv_text_size">22sp</dimen>
+	<dimen name="call_sms_safe_bn_text_size">20sp</dimen>
+	
+	<dimen name="app_manager_tv_title_textsize">25sp</dimen>
+	<dimen name="app_manager_tv_loading_textsize">18sp</dimen>
+	<dimen name="app_manager_pb_size">60dip</dimen>
+	
+	<dimen name="app_item_tv_appname_textsize">22sp</dimen>
+	
+	
+	<dimen name="app_name_iv_size">60dip</dimen>
+	
+	
+	<dimen name="popup_item_linearlayout_size">70dip</dimen>
+	<dimen name="popup_item_imageiv_size">35dip</dimen>
+
+		
+	<dimen name="popup_item_textview_width">35dip</dimen>
+	<dimen name="popup_item_textview_height">20dip</dimen>
+	<dimen name="popup_item_view_width">1dip</dimen>
+	<dimen name="popup_item_view_height">50dip</dimen>
+	
+	<dimen name="lock_app_item_text_size">22sp</dimen>
+	<dimen name="lock_app_item_text_package_size">14sp</dimen>
+	<dimen name="lock_app_item_iv_size">40dip</dimen>
+	
+	<dimen name="app_lock_pwd_iv_size">48dip</dimen>
+	<dimen name="app_lock_ll_layout_height">40dip</dimen>
+	
+	<dimen name="app_lock_tv_size">22sp</dimen>
+	
+	<dimen name="app_lock_pb_size">60dip</dimen>
+	<dimen name="app_lock_tv_sized">18sp</dimen>
+	
+	<dimen name="setting_center_layout_width">280dip</dimen>
+	<dimen name="setting_center_layout_textsize">22sp</dimen>
+	<dimen name="setting_center_layout_unserviec_textsize">14sp</dimen>
+	
+	<dimen name="task_manager_pb_size">60dip</dimen>
+	<dimen name="task_manager_pb_textsize">18sp</dimen>
+	
+	<dimen name="task_manager_item_iv_size">60dip</dimen>
+	<dimen name="task_manager_item_ll_height">65dip</dimen>
+	<dimen name="task_manager_item_tv_textsize">18sp</dimen>
+	<dimen name="task_manager_item_cb_size">40dip</dimen>
+	
+	<dimen name="my_toast_tv_size">18sp</dimen>
+	
+	<dimen name="app_detail_tbrow_height">20dip</dimen>
+	<dimen name="app_detail_tbrow_width">0dip</dimen>
+	<dimen name="app_detail_tv_height">20dip</dimen>
+	<dimen name="app_detail_tbrow_detail">200dip</dimen>
+	
+	<dimen name="task_setting_ll_width">280dip</dimen>
+	<dimen name="task_setting_tv_textsize">22sp</dimen>
+	
+	<dimen name="traffic_manager_tv_layout_width">0dip</dimen>
+	
+	<dimen name="cache_info_tv_layout_width">0dip</dimen>
+</resources>

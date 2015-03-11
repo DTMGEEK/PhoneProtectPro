@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.androiddefprot"
+        minSdkVersion 10
+        targetSdkVersion 21
+
+        testApplicationId "com.example.androiddefprot"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.android.support:support-v4:18.0.0'
+    compile project(':library')
+    compile project(':listviewanimlibrary')
+    compile 'com.android.support:cardview-v7:21.0.3'
+}

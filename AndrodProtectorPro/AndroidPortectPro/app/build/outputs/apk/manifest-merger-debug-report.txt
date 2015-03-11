@@ -1,0 +1,354 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:appcompat-v7:18.0.0:18:5
+MERGED from AndroidPortectPro:library:unspecified:8:5
+MERGED from AndroidPortectPro:listviewanimlibrary:unspecified:7:5
+MERGED from com.android.support:cardview-v7:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from AndroidManifest.xml:11:6
+	android:targetPackage
+		ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:12:9
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:15:6
+	android:name
+		ADDED from AndroidManifest.xml:15:23
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:16:6
+	android:name
+		ADDED from AndroidManifest.xml:16:23
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:17:6
+	android:name
+		ADDED from AndroidManifest.xml:17:23
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:18:6
+	android:name
+		ADDED from AndroidManifest.xml:18:23
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:19:6
+	android:name
+		ADDED from AndroidManifest.xml:19:23
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from AndroidManifest.xml:20:6
+	android:name
+		ADDED from AndroidManifest.xml:20:23
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:21:6
+	android:name
+		ADDED from AndroidManifest.xml:21:23
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:22:6
+	android:name
+		ADDED from AndroidManifest.xml:22:23
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:23:6
+	android:name
+		ADDED from AndroidManifest.xml:23:23
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:24:6
+	android:name
+		ADDED from AndroidManifest.xml:24:23
+uses-permission#android.permission.WRITE_SMS
+ADDED from AndroidManifest.xml:25:6
+	android:name
+		ADDED from AndroidManifest.xml:25:23
+uses-permission#android.permission.READ_SMS
+ADDED from AndroidManifest.xml:26:6
+	android:name
+		ADDED from AndroidManifest.xml:26:23
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:29:6
+	android:name
+		ADDED from AndroidManifest.xml:29:23
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from AndroidManifest.xml:30:6
+	android:name
+		ADDED from AndroidManifest.xml:30:23
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from AndroidManifest.xml:31:6
+	android:name
+		ADDED from AndroidManifest.xml:31:23
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:32:6
+	android:name
+		ADDED from AndroidManifest.xml:32:23
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:33:6
+	android:name
+		ADDED from AndroidManifest.xml:33:23
+application
+ADDED from AndroidManifest.xml:36:5
+MERGED from com.android.support:appcompat-v7:18.0.0:19:5
+MERGED from AndroidPortectPro:library:unspecified:12:5
+MERGED from com.android.support:cardview-v7:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:40:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:37:9
+	android:icon
+		ADDED from AndroidManifest.xml:39:9
+	android:theme
+		ADDED from AndroidManifest.xml:41:9
+	android:name
+		ADDED from AndroidManifest.xml:38:9
+	tools:ignore
+		ADDED from AndroidPortectPro:library:unspecified:12:18
+activity#com.example.androiddefprot.ui.SplashActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:icon
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:47:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:27
+activity#com.example.androiddefprot.ui.MainScreenActivity
+ADDED from AndroidManifest.xml:54:9
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:theme
+		ADDED from AndroidManifest.xml:55:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+activity#com.example.androiddefprot.ui.LostProtectedActivity
+ADDED from AndroidManifest.xml:59:9
+	android:label
+		ADDED from AndroidManifest.xml:60:13
+	android:name
+		ADDED from AndroidManifest.xml:59:19
+activity#com.example.androiddefprot.ui.SetupGuideOneActivity
+ADDED from AndroidManifest.xml:62:9
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:19
+activity#com.example.androiddefprot.ui.SetupGuideSecondActivity
+ADDED from AndroidManifest.xml:65:9
+	android:label
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:65:19
+activity#com.example.androiddefprot.ui.SetupGuideThirdActivity
+ADDED from AndroidManifest.xml:68:9
+	android:label
+		ADDED from AndroidManifest.xml:69:12
+	android:name
+		ADDED from AndroidManifest.xml:68:19
+activity#com.example.androiddefprot.ui.SetupGuideFourthActivity
+ADDED from AndroidManifest.xml:71:8
+	android:label
+		ADDED from AndroidManifest.xml:72:12
+	android:name
+		ADDED from AndroidManifest.xml:71:18
+activity#com.example.androiddefprot.ui.ContactInfoActivity
+ADDED from AndroidManifest.xml:74:8
+	android:name
+		ADDED from AndroidManifest.xml:74:18
+activity#com.example.androiddefprot.ui.AToolsActivity
+ADDED from AndroidManifest.xml:76:8
+	android:name
+		ADDED from AndroidManifest.xml:76:18
+activity#com.example.androiddefprot.ui.QueryNumberActivity
+ADDED from AndroidManifest.xml:78:8
+	android:name
+		ADDED from AndroidManifest.xml:78:18
+activity#com.example.androiddefprot.ui.DragViewActivity
+ADDED from AndroidManifest.xml:80:6
+	android:name
+		ADDED from AndroidManifest.xml:80:16
+activity#com.example.androiddefprot.ui.CallSmsActivity
+ADDED from AndroidManifest.xml:82:8
+	android:name
+		ADDED from AndroidManifest.xml:82:18
+activity#com.example.androiddefprot.ui.AppManagerActivity
+ADDED from AndroidManifest.xml:84:8
+	android:name
+		ADDED from AndroidManifest.xml:84:18
+activity#com.example.androiddefprot.ui.AppLockActivity
+ADDED from AndroidManifest.xml:86:8
+	android:name
+		ADDED from AndroidManifest.xml:86:18
+activity#com.example.androiddefprot.ui.LockScreenActivity
+ADDED from AndroidManifest.xml:88:8
+	android:name
+		ADDED from AndroidManifest.xml:88:18
+	android:launchMode
+		ADDED from AndroidManifest.xml:88:82
+activity#com.example.androiddefprot.ui.SettinCenterActivity
+ADDED from AndroidManifest.xml:90:8
+	android:name
+		ADDED from AndroidManifest.xml:90:18
+activity#com.example.androiddefprot.ui.TaskManagerActivity
+ADDED from AndroidManifest.xml:92:8
+	android:theme
+		ADDED from AndroidManifest.xml:93:12
+	android:name
+		ADDED from AndroidManifest.xml:92:18
+activity#com.example.androiddefprot.ui.AppDetailActivity
+ADDED from AndroidManifest.xml:95:8
+	android:theme
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.example.androiddefprot.ui.TaskSettingActivity
+ADDED from AndroidManifest.xml:100:8
+	android:name
+		ADDED from AndroidManifest.xml:101:12
+activity#com.example.androiddefprot.ui.CommonNumberActivity
+ADDED from AndroidManifest.xml:104:8
+	android:name
+		ADDED from AndroidManifest.xml:104:18
+activity#com.example.androiddefprot.ui.TrafficManagerActivity
+ADDED from AndroidManifest.xml:106:8
+	android:name
+		ADDED from AndroidManifest.xml:106:18
+activity#com.example.androiddefprot.ui.CacheInfoActivity
+ADDED from AndroidManifest.xml:108:8
+	android:name
+		ADDED from AndroidManifest.xml:108:18
+activity#com.example.androiddefprot.ui.AntiVirutsActivity
+ADDED from AndroidManifest.xml:110:8
+	android:name
+		ADDED from AndroidManifest.xml:110:18
+receiver#com.example.androiddefprot.receiver.CallPhoneReceiver
+ADDED from AndroidManifest.xml:112:8
+	android:name
+		ADDED from AndroidManifest.xml:112:18
+intent-filter#android.intent.action.NEW_OUTGOING_CALL
+ADDED from AndroidManifest.xml:113:12
+	android:priority
+		ADDED from AndroidManifest.xml:113:27
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from AndroidManifest.xml:114:17
+	android:name
+		ADDED from AndroidManifest.xml:114:25
+receiver#com.example.androiddefprot.receiver.BootCompleteReceiver
+ADDED from AndroidManifest.xml:119:8
+	android:name
+		ADDED from AndroidManifest.xml:119:18
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:120:12
+	android:priority
+		ADDED from AndroidManifest.xml:120:27
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:121:16
+	android:name
+		ADDED from AndroidManifest.xml:121:24
+receiver#com.example.androiddefprot.receiver.SmsReceiver
+ADDED from AndroidManifest.xml:126:8
+	android:name
+		ADDED from AndroidManifest.xml:126:18
+receiver#com.example.androiddefprot.receiver.MyDeviceAdminReciver
+ADDED from AndroidManifest.xml:133:8
+	android:name
+		ADDED from AndroidManifest.xml:133:18
+meta-data#android.app.device_admin
+ADDED from AndroidManifest.xml:134:12
+	android:resource
+		ADDED from AndroidManifest.xml:135:17
+	android:name
+		ADDED from AndroidManifest.xml:134:23
+intent-filter#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from AndroidManifest.xml:136:12
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from AndroidManifest.xml:137:16
+	android:name
+		ADDED from AndroidManifest.xml:137:24
+receiver#com.example.androiddefprot.receiver.LockScreenReceiver
+ADDED from AndroidManifest.xml:142:8
+	android:name
+		ADDED from AndroidManifest.xml:142:18
+intent-filter#android.intent.action.SCREEN_OFF
+ADDED from AndroidManifest.xml:143:12
+action#android.intent.action.SCREEN_OFF
+ADDED from AndroidManifest.xml:144:16
+	android:name
+		ADDED from AndroidManifest.xml:144:24
+receiver#com.example.androiddefprot.receiver.ProcessWidget
+ADDED from AndroidManifest.xml:149:8
+	android:name
+		ADDED from AndroidManifest.xml:149:18
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:150:12
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:151:16
+	android:name
+		ADDED from AndroidManifest.xml:151:24
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:153:12
+	android:resource
+		ADDED from AndroidManifest.xml:154:16
+	android:name
+		ADDED from AndroidManifest.xml:153:23
+receiver#com.example.androiddefprot.receiver.BlackPhoneNumberReceiver
+ADDED from AndroidManifest.xml:157:8
+	android:name
+		ADDED from AndroidManifest.xml:157:18
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from AndroidManifest.xml:158:12
+	android:priority
+		ADDED from AndroidManifest.xml:158:27
+action#android.intent.action.PHONE_STATE
+ADDED from AndroidManifest.xml:159:16
+	android:name
+		ADDED from AndroidManifest.xml:159:24
+service#com.example.androiddefprot.service.AddressServiec
+ADDED from AndroidManifest.xml:174:8
+	android:name
+		ADDED from AndroidManifest.xml:174:17
+service#com.example.androiddefprot.service.BackupSmsService
+ADDED from AndroidManifest.xml:176:8
+	android:name
+		ADDED from AndroidManifest.xml:176:17
+service#com.example.androiddefprot.service.WatchDogService
+ADDED from AndroidManifest.xml:178:8
+	android:name
+		ADDED from AndroidManifest.xml:178:17
+service#com.example.androiddefprot.service.UpdateWidgetService
+ADDED from AndroidManifest.xml:180:8
+	android:name
+		ADDED from AndroidManifest.xml:180:17
+provider#com.example.androiddefprot.provider.AppLockProvider
+ADDED from AndroidManifest.xml:182:8
+	android:authorities
+		ADDED from AndroidManifest.xml:183:12
+	android:name
+		ADDED from AndroidManifest.xml:182:18
+uses-library#android.test.runner
+ADDED from AndroidManifest.xml:186:9
+	android:name
+		ADDED from AndroidManifest.xml:186:23

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@drawable/card_background_white"
+	android:gravity="center_vertical"    
+>
+
+    <ImageView 
+        android:id="@+id/task_manager_item_iv"
+        android:layout_width="@dimen/task_manager_item_iv_size"
+        android:layout_height="@dimen/task_manager_item_iv_size"
+    	android:layout_alignParentLeft="true"
+    	android:scaleType="centerCrop"
+    	android:src="@drawable/ic_launcher"    
+    />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/task_manager_item_ll_height"
+       	android:layout_toRightOf="@id/task_manager_item_iv"
+       	android:orientation="vertical"
+        >
+        
+        <TextView
+            android:id="@+id/task_manager_item_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/task_manager_title_tv_function_name"
+            android:textColor="@android:color/black"
+       		android:textSize="@dimen/task_manager_item_tv_textsize"
+        />
+        
+         <TextView
+            android:id="@+id/task_manager_item_memory_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/task_manager_title_tv_memory_size"
+            android:textColor="@android:color/black"
+       		android:textSize="@dimen/task_manager_item_tv_textsize"     
+         />
+        
+    </LinearLayout>
+    
+    
+    <CheckBox 
+        android:id="@+id/task_manager_item_memory_cb"
+        android:layout_width="@dimen/task_manager_item_cb_size"
+        android:layout_height="@dimen/task_manager_item_cb_size"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        />
+    
+    
+</RelativeLayout>

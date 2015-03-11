@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bakcgroundcolor"
+    >
+    
+    <TextView 
+        style="@style/text_title_style"
+        android:text="@string/setupguide_title_fourth"
+        />
+
+    
+    <ImageView 
+      	style="@style/devide_line_style"
+        />
+    
+   <TextView 
+       style="@style/text_content_style"
+       android:layout_marginTop="8dip"
+       android:text="@string/setupguide_fourth_tv_text"
+       />
+   
+   <CheckBox 
+       android:id="@+id/cb_setupguide_isprotecting"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/setupguide_fourth_cb_text"
+       />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView style="@style/image_status_off_style"/>
+        <ImageView style="@style/image_status_off_style"/>
+		<ImageView style="@style/image_status_on_style"/>        
+        <ImageView style="@style/image_status_off_style"/>
+		
+    </LinearLayout>
+
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+         <LinearLayout 
+            android:layout_marginTop="5dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+    	
+				<ImageView 
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:src="@drawable/luyang"
+				    />
+				
+		</LinearLayout>
+        
+        <Button 
+            android:id="@+id/bt_setupguide_fourth_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/next"
+            android:text="@string/setupguide_button_next_content"
+            />
+        
+        <Button 
+            android:id="@+id/bt_setupguide_fourth_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:drawableRight="@drawable/next"
+            android:text="@string/setupguide_button_finish_content"
+            />
+		
+    </RelativeLayout>
+    
+</LinearLayout>

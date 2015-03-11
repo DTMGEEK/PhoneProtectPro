@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bakcgroundcolor"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/app_manager_tv_ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@color/bakcgroundcolor"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/app_manager_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_manager_tv_title_text"
+            android:textSize="@dimen/app_manager_tv_title_textsize"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ListView
+            android:id="@+id/app_manager_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dip"
+            android:background="#e2e2e2"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:dividerHeight="16dp"
+            android:padding="16dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@drawable/item_background_selector"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/app_manager_ll_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ProgressBar
+            android:layout_width="@dimen/app_name_iv_size"
+            android:layout_height="@dimen/app_name_iv_size"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/app_manager_tv_loading_textsize"
+            android:text="@string/app_manager_tv_loading_text"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

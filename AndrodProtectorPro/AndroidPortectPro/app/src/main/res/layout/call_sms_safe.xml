@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/call_sms_safe_layout_height"
+        android:background="@drawable/title_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" 
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call_sms_safe_tv"
+            android:textColor="@color/call_sms_safe_color"
+            android:textSize="@dimen/call_sms_safe_tv_text_size"
+            />
+        
+        <Button 
+            android:id="@+id/add_black_number_bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/button_selector"
+            android:text="@string/call_sms_safe_bn"
+            android:textColor="@color/call_sms_safe_color"
+            android:textSize="@dimen/call_sms_safe_bn_text_size"
+            />
+        
+    </LinearLayout>
+    
+    
+    <ListView
+        android:id="@+id/call_sms_safe_lv"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dip"
+        android:listSelector="@drawable/item_background_selector"
+       	android:numColumns="3" 
+        />
+
+
+      
+      
+</LinearLayout>
